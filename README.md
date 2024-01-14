@@ -1,6 +1,6 @@
-# openai-chat
+# openai-chatbot
 
-Building a simple chat using OpenAI API
+Building a simple chatbot using OpenAI API
 inside a Jupyter Notebook.
 
 ## Generate a token to use with Jupyter Notebook
@@ -18,7 +18,7 @@ And dump it in `.env` file.
 Generate an OpenAI API Key
 and dump it in `.env` file.
 
-## Run the chat
+## Run the chatbot
 
 Start docker
 
@@ -29,7 +29,7 @@ $ docker compose up
 Navigate to http://127.0.0.1:8888/
 use the secret you defined as the access token.
 
-Open the `chat.ipynb`
+Open the `chatbot.ipynb`
 and execute each instruction,
-the last one would start the chat
+the last one would start the chatbot
 until you type one of the stop words.
